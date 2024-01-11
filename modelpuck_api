@@ -1,0 +1,46 @@
+# Author: Lois I Omotara
+class ModelPuck :
+    def __init__(self,chatbots=None, choices = None,debug=True):
+        # initializes data structure
+        pass
+    def calc_choicesd(self):
+        # calculates distance between model puck and all decision
+        # points
+        pass
+    def set_chatbots(self,chatbots):
+        # set the chatbots to be used in model
+        pass
+    def set_choices(self,choices):
+        # sets decision points to be used in model
+        pass
+    def get_choicep(self, choice):
+        # get position of each decision point
+        pass
+    def get_dt(self):
+        # get dt being used in model
+        pass
+    def get_p(self):
+        # get model puck's position
+        pass
+    def get_v(self):
+        # get model puck's velocity
+        pass
+    def get_a(self):
+        # get model puck's acceleration
+        pass
+    def update_F(self):
+        # updates the force influencing the model puck by
+        # aggregating the force of all the magnets
+        pass
+    def update_a(self):
+        # updates acceleration of model puck
+        pass
+    def update_v(self):
+        # updates velocity of model puck
+        pass
+    def update_p(self):
+        # updates position of model puck
+        pass
+    def update(self,start):
+        # updates model puck at each timestep
+        pass

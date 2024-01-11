@@ -1,0 +1,46 @@
+# Author Lois I. Omotara
+class ChatbotPuck():
+    def __init__(self,name, convic_words=None, convic_freq=None, model=None,debug = False):
+        # initializes data structure the involves loading the responses and
+        # frequences of the bot
+        pass
+    def choose(self,convic_words,convic_freq):
+        # uses responses and frequencies of the bot to choose a decision point
+        pass
+    def change_choice(self):
+        # when the bot changes it choice this function updates the position
+        # of the bot to match the initial for that decision point and
+        # updates the direction of the force as well
+        pass
+    def get_p(self):
+        # returns current position
+        pass
+    def get_v(self):
+        # returns current velocity
+        pass
+    def get_a(self):
+        # return current acceleration
+        pass
+    def update_sim(self,word = None):
+        # updates/creates similarity vector by using SentenceTransformer
+        pass
+    def update_F(self):
+        # updates the force by using the conviction vector
+        # also deals with the possibility of changing answers and, in that case
+        # dampens the force accordingly
+        pass
+    def update_a(self):
+        # updates acceleration
+        pass
+    def update_v(self):
+        # updates velocity
+        pass
+    def update_p(self):
+        # updates position and keeps magnet from going passed borders
+        pass
+    def reset(self):
+        # resets instance variables
+        pass
+    def update(self):
+        # updates puck at each time step
+        pass
